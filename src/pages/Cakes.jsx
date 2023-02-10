@@ -78,7 +78,7 @@ const Cakes = () => {
             </Col>
 
             {products.map((item, index) => (
-              <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
+              <Col lg="4" md="4" sm="6" xs="12" key={item.id} className="mt-5">
                 <ProductCard item={item} />
               </Col>
             ))}
