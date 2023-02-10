@@ -14,6 +14,7 @@
 - Responsiveness
 - Multiple devices supported - small, medium, large etc
 - Proper Routing
+- Local Storage
 - Navigation
   - Responsive Nav Bar with menu icon
 - Home Page

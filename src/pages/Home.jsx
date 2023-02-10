@@ -70,11 +70,13 @@ const Home = () => {
 
               <div className="hero__btns d-flex align-items-center gap-5 mt-4">
                   <button className="order__btn d-flex align-items-center justify-content-between">
+                  <Link to="/cakes">
                     Order now <i className="ri-arrow-right-s-line"></i>
+                  </Link>
                   </button>
 
                   <button className="all__foods-btn">
-                    <Link to="/foods">See all foods</Link>
+                    <Link to="/cakes">See all foods</Link>
                   </button>
                 </div>
 
