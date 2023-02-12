@@ -18,23 +18,22 @@ import ProductCard from '../components/UI/product-card/ProductCard'
 import { APP_NAME, CAKE, DELICIOUS_CAKE } from '../assets/constants'
 import { Link } from 'react-router-dom'
 
-
 const featureData = [
   {
     title: "Quick Delivery",
     imgUrl: serviceImageOne,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Easy ordering and delivery straight to your door",
   },
 
   {
     title: "Super Dine In",
     imgUrl: serviceImageTwo,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "A commitment to quality, with the finest ingredients used in every recipe.",
   },
   {
     title: "Easy Pick Up",
     imgUrl: serviceImageThree,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "A user-friendly interface that makes browsing and ordering a breeze",
   },
 ];
 
@@ -47,7 +46,6 @@ const Home = () => {
     setDeliciousCake(sliceCakes);
   }, []);
 
-  
   return (
     <Helment title = "Home">
       {/* ================HERO SECTION ================*/}
@@ -65,7 +63,10 @@ const Home = () => {
                 <h1 className='mb-4 hero__title'>
                   <span> Making sweet things happen.</span>
                 </h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quibusdam officiis eaque autem minima labore facere tenetur eum reprehenderit vitae.</p>
+                <p> 
+                Sweeten your special moments with our delectable pastries and cakes.
+                Your one-stop-shop for all your pastry and cake needs
+                </p>
               </div>
 
               <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -127,10 +128,10 @@ const Home = () => {
                 we will <span> take care</span>
               </h2>
               <p className='mb-1 mt-4 feature__text'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quam.
+              At our bakery, enjoy a wide selection of freshly baked pastries, cakes, and sweet treats.
               </p>
               <p className='feature__text'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, consectetur.
+              Satisfy your sweet tooth with every bite!
               </p>
             </Col>
 
@@ -161,10 +162,10 @@ const Home = () => {
                   Why <span>{APP_NAME}?</span>
                 </h2>
                 <p className="the__cake__house-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                Choose our bakery for freshly baked, mouth-watering pastries and cakes made with love. 
+                With customizable options, easy ordering and delivery, and secure payment options, we provide a seamless experience for all your dessert needs.
+                Trust in our commitment to quality and expertise in baking, making every bite a taste of heaven. 
+                Satisfy your sweet tooth with the finest ingredients and expertly crafted recipes
                 </p>
 
                 <ListGroup className="mt-4">
@@ -174,8 +175,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                    We serves fresh, tasty pastries and cakes made with love and the finest ingredients. Enjoy expert recipes and customizable options with easy ordering
                     </p>
                   </ListGroupItem>
 
@@ -184,8 +184,7 @@ const Home = () => {
                       <i className="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                    Choose our bakery for top-notch quality and support. We ensure satisfaction with every order and are committed to providing the best customer service.
                     </p>
                   </ListGroupItem>
 
@@ -195,8 +194,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                    Order from any location with ease and convenience. Our bakery offers flexible ordering options and fast delivery, ensuring that your sweet treats are never out of reach.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -206,7 +204,6 @@ const Home = () => {
         </Container>
       </section>
     </Helment>
-    
   )
 }
 

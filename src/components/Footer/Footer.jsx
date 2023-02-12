@@ -14,10 +14,7 @@ const Footer = () => {
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
               <h5>{APP_NAME}</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
-              </p>
+              <p>Indulge in freshly baked sweetness. A masterpiece in every cake from our oven to your table</p>
             </div>
           </Col>
 
